@@ -320,7 +320,13 @@ namespace ChallengeSets
 
         public int Sum(int[] numbers)
         {
-            throw new NotImplementedException();
+            if (numbers == null)
+            {
+                return 0;
+            }
+
+           int add = numbers.Sum();
+            return add;
         }
 
         public int SumEvens(int[] numbers)
