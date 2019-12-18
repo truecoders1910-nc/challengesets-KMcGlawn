@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ChallengeSets
 {
@@ -7,7 +8,15 @@ namespace ChallengeSets
     {
         public bool ArrayContainsAFalse(bool[] vals)
         {
-            throw new NotImplementedException();
+            if (vals.Contains(false))
+            {
+                return true;
+            }
+
+            return false;   
+
+                
+            
         }
 
         public bool IsSumOfOddsOdd(IEnumerable<int> numbers)
