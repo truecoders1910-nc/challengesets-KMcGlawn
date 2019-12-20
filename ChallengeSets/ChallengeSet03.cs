@@ -64,7 +64,7 @@ namespace ChallengeSets
 
         public int LastMinusFirst(int[] nums)
         {
-            throw new NotImplementedException();
+          return  nums.Last() - nums.First();
         }
         public int[] GetOddsBelow100()
         {
