@@ -50,7 +50,7 @@ namespace ChallengeSets
         public char GetLastLetterOfString(string val)
         {
 
-            throw new NotImplementedException();
+            return val.Last();
         }
 
         public decimal Divide(decimal dividend, decimal divisor)
